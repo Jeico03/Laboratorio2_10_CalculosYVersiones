@@ -15,8 +15,18 @@
 
             double nuevoSaldo = saldoActual + montoDeposito;
 
+            double saldoAnterior = saldoActual;
 
-
+            Console.Clear();
+            Console.WriteLine("========================================");
+            Console.WriteLine("       RESUMEN DE CUENTA BANCARIA       ");
+            Console.WriteLine("========================================");
+            Console.WriteLine($"Cliente:         {nombreCliente}");
+            Console.WriteLine($"Saldo Anterior:  {saldoAnterior:C}");
+            Console.WriteLine($"Depósito:        {montoDeposito:C}");
+            Console.WriteLine("----------------------------------------");
+            Console.WriteLine($"Nuevo Saldo:     {nuevoSaldo:C}");
+            Console.WriteLine("========================================");
 
         }
     }
