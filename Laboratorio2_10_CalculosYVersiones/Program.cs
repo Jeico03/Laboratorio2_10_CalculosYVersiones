@@ -4,7 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Introduzca el Nombre del Cliente");
+            string nombreCliente = Console.ReadLine();
+
+            Console.WriteLine("Introduzca el Saldo actual");
+            double saldoActual = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Introduzca el Monto a depositar");
+            double montoDeposito = Convert.ToDouble(Console.ReadLine());
+
+
         }
     }
 }
